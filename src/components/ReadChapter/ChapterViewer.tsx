@@ -23,7 +23,7 @@ export function ChapterViewer({
     if (lastPageRef.current) {
       setTimeout(() => {
         lastPageRef.current?.scrollIntoView({
-          behavior: "smooth",
+          behavior: "auto",
           block: "start",
         });
       }, 100);
